@@ -2,5 +2,7 @@
 
 对应书中的数据结构以及处理函数的实现
 
-2.3[ 线性链表的链式表示和实现](https://github.com/Wangs121/-C-/List/LinearList.c)
+文字编码格式统一为UTF-8
+
+2.3[ 线性链表的链式表示和实现](https://github.com/Wangs121/DataStructureInC/blob/master/List/LinearList.c)
 
