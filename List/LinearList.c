@@ -3,10 +3,9 @@
 typedef int dataType;
 
 //单链表指针结构体
-typedef struct LNode
-{
+typedef struct LNode{
     dataType data;
-    struct LNode *next=NULL;
+    struct LNode *next;
 }LNode, *LinkList;
 //状态枚举
 typedef enum {
@@ -156,14 +155,12 @@ Status MergeList(LinkList La, LinkList Lb,LinkList &Lc)//此处使用La，非&La
     p->next = NULL;
     return OK;
 }
+
 int main()
 {
-    LinkList Head;//,Ha,Hb;
+    LinkList Head;
     //printf("&HEAD:%d\n",&Head);
     CreateList_For(Head,3);
-    //CreateList_For(Ha,2);
-    //CreateList_For(Hb,3);
-    //CreateList_Rev(Head,3);
     int res=0;
     //ListInsert(Head,3,5); 
     printf("DeleteSuccess:%d\n",ListDelete(Head,2,&res));
