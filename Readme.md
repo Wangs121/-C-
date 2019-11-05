@@ -22,5 +22,8 @@
 
 3.3 栈与递归的实现
 
-3.4[ 队列](https://github.com/Wangs121/DataStructureInC/blob/master/Queue/Queue.c)
+3.4.2 [ 队列的链式表示](https://github.com/Wangs121/DataStructureInC/blob/master/Queue/Queue.c)
 
+3.4.3 [循环链表](https://github.com/Wangs121/DataStructureInC/blob/master/Queue/SqQueue.c)
+
+4 串
